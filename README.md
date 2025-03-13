@@ -22,8 +22,7 @@ Laser parameters:
 Another parameter:  
 - c - speed of light [m/s]
 
-parameters are saved in "fiber_parameters.json"
-
+parameters are saved in "fiber_parameters.json"\\
 
 The Input Gaussian laser pulse is defined in the time domain by its electric field, intensity, and phase. It is then transformed into the frequency domain by a Fourier transform, where it is characterized by the spectrum and spectral phase. Then, the dispersive medium (optical fiber) is applied, which changes the spectral phase. The dispersed pulse is then transformed from the frequency domain into the time domain by inverse Fourier transform.
 
