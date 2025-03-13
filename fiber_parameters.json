@@ -1,0 +1,18 @@
+{
+	"_comment": "a_core - core radius [m], a_clad - cladding radius [m], alpha - fibre absorption, L - length of the fiber [m], wavelength_max,wavelength_min - the wavelength range on which the dispersion is empirically determined, parameters for Sellmeier eqn: B,C - core; Bcl,Ccl - cladding, tp - pulse duration [s], lambda0 - central wavelength [m], c - speed of light [m/s]",
+
+
+	"a_core": 1.75e-6,
+	"a_clad": 62.5e-6,
+	"alpha": 0,
+	"L": 66,
+	"wavelength_min": 0.21,
+	"wavelength_max": 6.7,
+	"B": [0.6961663, 0.4079426, 0.8974794],
+	"C": [0.0684043, 0.1162414, 9.896161],
+	"Bcl": [0.69325, 0.39720, 0.86008],
+	"Ccl": [0.06724, 0.11714, 9.7761],
+	"tp": 100e-15,
+	"lambda0": 780e-9,
+	"c": 3e8
+}
