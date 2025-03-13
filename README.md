@@ -7,20 +7,20 @@ Calculation of dispersion for step-index fibers
 
 The script is working with the parameters:
   Properties of the fiber:
-      a_core - core radius [m]
-      a_clad - cladding radius [m]
-      alpha - fiber absorption 
-      L - length of the fiber [m]
+     - a_core - core radius [m]
+     - a_clad - cladding radius [m]
+     - alpha - fiber absorption 
+     - L - length of the fiber [m]
       Parameters for refractive index calculation (Sellmeier eqn): 
-          B, C - core
-          Bcl, Ccl - cladding
+          - B, C - core
+          - Bcl, Ccl - cladding
       
   Laser parameters:
-      carrier_wavelength - central wavelength [m]
-      tp - pulse duration
+     - carrier_wavelength - central wavelength [m]
+     - tp - pulse duration
       
   Another parameter:  
-      c - speed of light [m/s]
+     - c - speed of light [m/s]
       
   - parameters are saved in "fiber_parameters.json"
 
